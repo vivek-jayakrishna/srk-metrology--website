@@ -12,14 +12,4 @@
     });
   }
 
-  const form = document.getElementById('quote-form');
-  const status = document.getElementById('status');
-
-  if (form && status) {
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-      status.textContent = 'Thank you — your enquiry has been received. We will contact you shortly.';
-      form.reset();
-    });
-  }
 });
